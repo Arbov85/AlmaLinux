@@ -4,4 +4,7 @@ echo 'Please, enter your name!'
 
 read name
 
-echo 'My name is' $name
+echo 'Please enter your last name!'
+
+read lastname
+echo 'My name is' $name $lastname
