@@ -1,10 +1,17 @@
 #!/bin/bash
 
-echo 'Please, enter your name!'
+#Colors
 
-read name
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NOC='\033[0m'
 
-echo 'Please enter your last name!'
+echo -e ${GREEN}Please,enter your first name!${NOC}
+
+read firstname
+
+echo -e ${GREEN}Please enter your last name!${NOC}
 
 read lastname
-echo 'My name is' $name $lastname
+
+echo 'My name is' $firstname $lastname
