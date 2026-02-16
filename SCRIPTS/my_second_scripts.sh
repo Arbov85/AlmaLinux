@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#---------------------------#
+# Name: my_second_script.sh #
+# Created by: Petar Arbov   #
+# Date: 2026-02-16          #
+# Version: 1.0              #
+#---------------------------#
+
 #Colors
 
 RED='\033[0;31m'
